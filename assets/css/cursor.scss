@@ -1,0 +1,26 @@
+.cursor {
+  z-index: 1000 !important;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out,
+  background-color 0.3s, width 0.3s, height 0.3s;
+  width: 15px;
+  height: 15px;
+  background-color: #0B68F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+
+  &.hidden {
+    opacity: 0 !important;
+  }
+}

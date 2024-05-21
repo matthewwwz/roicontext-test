@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>RoiContext test task</title>
+  </head>
+  <body>
+    <main>
+      <section class="instruments">
+        <div class="instruments__container">
+          <div class="instruments__wrapper">
+            <div class="instruments__item">
+              <img src="/assets/logos/google_analytics.svg" alt="Google Analytics">
+            </div>
+            <div class="instruments__item">
+              <img src="/assets/logos/google_ads.svg" alt="Google Ads">
+            </div>
+            <div class="instruments__item">
+              <img src="/assets/logos/ya_metrika.svg" alt="Яндекс Метрика">
+            </div>
+            <div class="instruments__item">
+              <img src="/assets/logos/ya_direct.svg" alt="Яндекс Директ">
+            </div>
+            <div class="instruments__item">
+              <img src="/assets/logos/roistat.svg" alt="Roistat">
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text instruments__item-text--blue">
+                <p>используем множество инструментов</p>
+              </div>
+            </div>
+
+            <!-- Hidden items for infinite loop -->
+            <div class="instruments__item">
+              <img aria-hidden="true" src="/assets/logos/google_analytics.svg" alt="Google Analytics">
+            </div>
+            <div class="instruments__item">
+              <img aria-hidden="true" src="/assets/logos/google_ads.svg" alt="Google Ads">
+            </div>
+            <div class="instruments__item">
+              <img aria-hidden="true" src="/assets/logos/ya_metrika.svg" alt="Яндекс Метрика">
+            </div>
+            <div class="instruments__item">
+              <img aria-hidden="true" src="/assets/logos/ya_direct.svg" alt="Яндекс Директ">
+            </div>
+            <div class="instruments__item">
+              <img aria-hidden="true" src="/assets/logos/roistat.svg" alt="Roistat">
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text instruments__item-text--blue">
+                <p aria-hidden="true">используем множество инструментов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="services__header">
+          <div class="services__title">услуги</div>
+          <div class="services__description">Мы оказываем комплекс различных услуг и предоставляем широкий выбор пактов - от разовых
+            до полного сопровождения группы проектов по всем направлениям.</div>
+        </div>
+
+        <div class="services__container swiper">
+          <div class="services__cards swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="services-card__header">
+                  <div>
+                    <div class="services-card__title">Контекст</div>
+                    <div class="services-card__price">от 85 000 Р</div>
+                  </div>
+
+                  <a href="#" class="card-action">
+                    <span class="card-action__title">на страницу</span>
+                    <img class="card-action__img" src="/assets/icons/arrow-right.svg" alt="На страницу">
+                  </a>
+                </div>
+
+                <ul class="services-card__list">
+                  <li>Поисковые кампании в Директе и Google Ads</li>
+                  <li>Кампании в РСЯ и КМС</li>
+                  <li>Ретаргетинг и ремаркетинг</li>
+                  <li>Видеореклама в YouTube и на площадках Яндекса и Google</li>
+                  <li>Реклама в Google Merchant Center</li>
+                  <li>Кампании с оплатой за конверсию</li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="services-card__header">
+                  <div>
+                    <div class="services-card__title">Таргет</div>
+                    <div class="services-card__price">от 20 000 Р</div>
+                  </div>
+
+                  <a href="#" class="services-card__action card-action">
+                    <span class="card-action__title">на страницу</span>
+                    <img class="card-action__img" src="/assets/icons/arrow-right.svg" alt="На страницу">
+                  </a>
+                </div>
+
+                <ul class="services-card__list">
+                  <li>Аудит проекта и разработка медиаплана</li>
+                  <li>Кампании в ВКонтакте и myTarget</li>
+                  <li>Привлечение трафика на сайт или в группу социальной сети</li>
+                  <li>Кампании Lead Ads для сбора заявок прямо в соцсетях</li>
+                  <li>Настройка чат-бота в ВК для увеличении конверсии группы</li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="services-card__header">
+                  <div>
+                    <div class="services-card__title">SEO</div>
+                    <div class="services-card__price">от 40 000 Р</div>
+                  </div>
+
+                  <a href="#" class="card-action">
+                    <span class="card-action__title">на страницу</span>
+                    <img class="card-action__img" src="/assets/icons/arrow-right.svg" alt="На страницу">
+                  </a>
+                </div>
+
+                <ul class="services-card__list">
+                  <li>Ежемесячное планирование работ</li>
+                  <li>Внутренняя и внешняя оптимизация</li>
+                  <li>Ежедневный мониторинг позиций</li>
+                  <li>Работа с репутацией</li>
+                  <li>Ежемесячный отчет о результатах</li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="services-card__header">
+                  <div>
+                    <div class="services-card__title">Веб-аналитика</div>
+                    <div class="services-card__price">от 50 000 Р</div>
+                  </div>
+
+                  <a href="#" class="card-action">
+                    <span class="card-action__title">на страницу</span>
+                    <img class="card-action__img" src="/assets/icons/arrow-right.svg" alt="На страницу">
+                  </a>
+                </div>
+
+                <ul class="services-card__list">
+                  <li>Настройка Яндекс.Метрики и Google Analytics</li>
+                  <li>Аудит юзабилити с техническим заданием для программиста</li>
+                  <li>SEO аудит и аудит репутации компании в поисковиках</li>
+                  <li>Аудит рекламных каналов Яндекс, Google, VK, MyTarget</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="instruments">
+        <div class="instruments__container">
+          <div class="instruments__wrapper">
+            <div class="instruments__item">
+              <div class="instruments__item-text instruments__item-text--blue">
+                <p aria-hidden="true">создаем с нуля</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p aria-hidden="true">стратегии</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p aria-hidden="true">кампании</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p aria-hidden="true">медиапланы</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p aria-hidden="true">интеграции</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p aria-hidden="true">ux</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p aria-hidden="true">сайты создаем</p>
+              </div>
+            </div>
+
+            <!-- Hidden items for infinite loop -->
+            <div class="instruments__item">
+              <div class="instruments__item-text instruments__item-text--blue">
+                <p>создаем с нуля</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p>стратегии</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p>кампании</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p>медиапланы</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p>интеграции</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p>ux</p>
+              </div>
+            </div>
+            <div class="instruments__item">
+              <div class="instruments__item-text">
+                <p>сайты создаем</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="cursor"></div>
+
+    <script type="module" src="/assets/js/main.js"></script>
+  </body>
+</html>
