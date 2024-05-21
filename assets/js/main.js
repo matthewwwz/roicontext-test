@@ -4,6 +4,8 @@ import 'swiper/css';
 import Swiper from 'swiper';
 import {cursor} from "./cursor";
 
+const links = document.querySelectorAll('.services-card');
+
 const swiper = new Swiper('.swiper', {
     keyboard: {
         enabled: true,
@@ -46,6 +48,12 @@ const swiper = new Swiper('.swiper', {
             centeredSlides: true,
         },
     },
+});
+
+links.forEach((link, index) => {
+    link.addEventListener('click', () => {
+        swiper.slideTo(index, 300, true);
+    });
 });
 
 cursor.init();
