@@ -197,6 +197,7 @@ body {
 
       & .services-card__price,
       & .services-card__list li,
+      & .services-card__list li:before,
       & .services-card__action {
         opacity: 1;
       }
